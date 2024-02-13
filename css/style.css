@@ -1,0 +1,81 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #efefef;
+}
+
+.box {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.border-test {
+    width: 30px;
+    height: 30px;
+}
+
+.bordre-icons {
+    border-radius: 0px;
+    border: 1px solid black;
+}
+
+.sign-in-item {
+    width: 205px;
+    background-color: #21b8c8;
+    border: 1px solid #21b8c8;
+    color: #fff;
+    padding: 5px 0;
+    margin-left: 2px;
+    font-weight: bold;
+}
+
+.title-font {
+    font-weight: bold;
+}
+
+.forget-password {
+    color: rgb(123, 143, 154);
+    font-size: 12px;
+}
+
+.forget-password-item {
+    color: rgb(69, 85, 100);
+}
+
+.bi-arrow-right {
+    font-size: 10px !important;
+}
+
+.icons {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3.5px 0.1px;
+    border-right: none;
+    position: relative;
+}
+
+.bi-person-circle::before {
+    margin-left: 3px;
+}
+
+.bi-lock::before {
+    margin-left: 3px;
+}
+
+.font-color {
+    color: #485867;
+}
+
+@media (max-width: 300px) {
+    .box {
+        width: 300px;
+    }
+}

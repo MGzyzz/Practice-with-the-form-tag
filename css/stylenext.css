@@ -1,0 +1,49 @@
+.form-data>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-next {
+    margin-left: 10px;
+}
+
+.forget-password-item {
+    text-decoration: none;
+}
+
+.decoration {
+    border: 1px dotted black;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.box-key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #daf1f9;
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.sign-in-item-next {
+    width: 100px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid #2b9979;
+    background-color: #2b9979;
+    color: white;
+    margin-left: 40px;
+}
+
+.forget-password-next {
+    margin-left: 103px;
+}
+
+@media (max-width: 500px) {
+    .width {
+        width: 500px;
+    }
+}

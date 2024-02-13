@@ -1,0 +1,13 @@
+    body {
+        margin: 0;
+        box-sizing: border-box;
+        background-color: #efefef;
+    }
+    
+    .border-dashed {
+        border: dashed orange;
+    }
+    
+    .title-color {
+        color: #555a5d;
+    }
